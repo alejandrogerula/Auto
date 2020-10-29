@@ -1,6 +1,5 @@
 package Model;
 
-
 import daos.impl.AutosDAOSimp;
 
 import java.sql.Connection;

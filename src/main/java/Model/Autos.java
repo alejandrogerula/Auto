@@ -38,6 +38,8 @@ public class Autos {
 
         return total;
 
+
+
     }
 public int getPrecioTipo (){
         return precioTipo;
