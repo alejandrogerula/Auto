@@ -1,3 +1,9 @@
+package Model;
+
+import daos.AutosDAOS;
+
+
+
 public class Autos {
 
 
@@ -22,6 +28,10 @@ public class Autos {
 
     }
 
+    public String getTipoVehiculo() {
+        return tipoVehiculo;
+    }
+
     public int calcular() {
 
         int total = precioTipo + techo + aire + frenos + airbag + llantas;
@@ -29,5 +39,11 @@ public class Autos {
         return total;
 
     }
+public int getPrecioTipo (){
+        return precioTipo;
+}
 
+public String getduenio (){
+        return nombreDuenio;
+}
 }
